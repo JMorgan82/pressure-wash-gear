@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pressure Washing Equipment Directory</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  background: #111827;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtext {
+  color: #9ca3af;
+  margin-top: 8px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  border-bottom: 1px solid #374151;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: #1f2937;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  background: #374151;
+}
+
+.card a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Pressure Washing Equipment Directory</h1>
+  <div class="subtext">
+    Curated tools, chemicals, and equipment for professional pressure washing setups.
+  </div>
+</header>
+
+<div class="container">
+
+<input type="text" id="search" class="search-bar" placeholder="Search equipment..." onkeyup="filterProducts()">
+
+<!-- CHEMICALS -->
+<div class="category">
+<h2>Chemicals & Cleaners</h2>
+
+<div class="card" data-name="sodium hypochlorite bleach 10%"><a href="https://amzn.to/4h40bGV" target="_blank" rel="nofollow noopener">Sodium Hypochlorite (Bleach 10%)</a></div>
+<div class="card" data-name="sodium hydroxide concrete wood"><a href="https://amzn.to/4nsDA9h" target="_blank" rel="nofollow noopener">Sodium Hydroxide</a></div>
+<div class="card" data-name="oxalic acid brightening"><a href="https://amzn.to/3Ixmx6K" target="_blank" rel="nofollow noopener">Oxalic Acid</a></div>
+<div class="card" data-name="la totally awesome degreaser oxidation"><a href="https://amzn.to/4pKNUuM" target="_blank" rel="nofollow noopener">LA's Totally Awesome Degreaser</a></div>
+<div class="card" data-name="gutter grenade"><a href="https://amzn.to/4gJYSN5" target="_blank" rel="nofollow noopener">Gutter Grenade</a></div>
+<div class="card" data-name="aluminum brightener"><a href="https://amzn.to/46FAyax" target="_blank" rel="nofollow noopener">Aluminum Brightener</a></div>
+<div class="card" data-name="onerestore"><a href="https://amzn.to/4q1tFt5" target="_blank" rel="nofollow noopener">OneRestore</a></div>
+<div class="card" data-name="citristrip paint remover"><a href="https://amzn.to/3W9W7uL" target="_blank" rel="nofollow noopener">CitriStrip Paint Remover</a></div>
+<div class="card" data-name="elephant snot graffiti"><a href="https://amzn.to/4gGB3pg" target="_blank" rel="nofollow noopener">Elephant Snot Graffiti Remover</a></div>
+<div class="card" data-name="oil stain remover"><a href="https://amzn.to/4nulSlG" target="_blank" rel="nofollow noopener">Oil Stain Remover</a></div>
+<div class="card" data-name="dawn dish soap bleach mix"><a href="https://amzn.to/3VH3ABs" target="_blank" rel="nofollow noopener">Dawn Dish Soap</a></div>
+<div class="card" data-name="persil laundry soap bleach mix"><a href="https://amzn.to/3IG6i7d" target="_blank" rel="nofollow noopener">Persil Laundry Soap</a></div>
+<div class="card" data-name="wd-40 corrosion inhibitor"><a href="https://amzn.to/4npHy2c" target="_blank" rel="nofollow noopener">WD-40 Corrosion Inhibitor</a></div>
+<div class="card" data-name="wd-40 lubricant"><a href="https://amzn.to/46FQzgB" target="_blank" rel="nofollow noopener">WD-40</a></div>
+</div>
+
+<!-- SURFACE CLEANERS -->
+<div class="category">
+<h2>Surface Cleaners</h2>
+<div class="card" data-name="be pressure surface cleaner"><a href="https://amzn.to/3VGJ57Z" target="_blank" rel="nofollow noopener">B E Pressure Surface Cleaners</a></div>
+<div class="card" data-name="janz surface cleaner"><a href="https://amzn.to/3IH0eLT" target="_blank" rel="nofollow noopener">Janz Surface Cleaners</a></div>
+<div class="card" data-name="vevor surface cleaner"><a href="https://amzn.to/4pEsO0Z" target="_blank" rel="nofollow noopener">Vevor Surface Cleaners</a></div>
+</div>
+
+<!-- PRESSURE WASHERS -->
+<div class="category">
+<h2>Pressure Washers & Parts</h2>
+<div class="card" data-name="4 gpm pressure washer"><a href="https://amzn.to/4mBboj6" target="_blank" rel="nofollow noopener">4 GPM Pressure Washers</a></div>
+<div class="card" data-name="2.5 gpm pressure washer"><a href="https://amzn.to/42MOLB5" target="_blank" rel="nofollow noopener">2.5 GPM Pressure Washers</a></div>
+<div class="card" data-name="high draw downstream injector"><a href="https://amzn.to/3KncQZ7" target="_blank" rel="nofollow noopener">High Draw Downstream Injector</a></div>
+<div class="card" data-name="downstream injector bypass"><a href="https://amzn.to/4pIZE0R" target="_blank" rel="nofollow noopener">Downstream Injector Bypass</a></div>
+<div class="card" data-name="quick connector kit"><a href="https://amzn.to/4nB0jje" target="_blank" rel="nofollow noopener">Quick Connector Kit</a></div>
+<div class="card" data-name="pressure washer gauge"><a href="https://amzn.to/3IH0hY5" target="_blank" rel="nofollow noopener">Pressure Washer Gauge</a></div>
+</div>
+
+<!-- WANDS -->
+<div class="category">
+<h2>Wands & Accessories</h2>
+<div class="card"><a href="https://amzn.to/46sRxhr" target="_blank" rel="nofollow noopener">Suttner ST-2305 Spray Gun</a></div>
+<div class="card"><a href="https://amzn.to/4noUNAb" target="_blank" rel="nofollow noopener">Pressure Washer Wand</a></div>
+<div class="card"><a href="https://amzn.to/42BuRcz" target="_blank" rel="nofollow noopener">X-Jet with M5</a></div>
+<div class="card"><a href="https://amzn.to/3Iiemew" target="_blank" rel="nofollow noopener">Knock-off X-Jet</a></div>
+<div class="card"><a href="https://amzn.to/4mzH34F" target="_blank" rel="nofollow noopener">Telescoping Wand</a></div>
+<div class="card"><a href="https://amzn.to/485cqjY" target="_blank" rel="nofollow noopener">Extension Wand</a></div>
+<div class="card"><a href="https://amzn.to/4pI5Tll" target="_blank" rel="nofollow noopener">J-Rod Tip (4 GPM)</a></div>
+<div class="card"><a href="https://amzn.to/4mI1JHI" target="_blank" rel="nofollow noopener">J-Rod Tip (2-3 GPM)</a></div>
+<div class="card"><a href="https://amzn.to/4nQzM14" target="_blank" rel="nofollow noopener">Foam Cannon</a></div>
+<div class="card"><a href="https://amzn.to/4npDizP" target="_blank" rel="nofollow noopener">Turbo Nozzle</a></div>
+<div class="card"><a href="https://amzn.to/4mBbLu0" target="_blank" rel="nofollow noopener">M5 Twist + Long Range Tip</a></div>
+<div class="card"><a href="https://amzn.to/3W9GRy3" target="_blank" rel="nofollow noopener">DN10 Ball Valve</a></div>
+<div class="card"><a href="https://amzn.to/4pFJZ2p" target="_blank" rel="nofollow noopener">JoeJet Ball Valve</a></div>
+<div class="card"><a href="https://amzn.to/3VE2UNe" target="_blank" rel="nofollow noopener">Green 10in Car Wash Brush</a></div>
+<div class="card"><a href="https://amzn.to/3VFbF9U" target="_blank" rel="nofollow noopener">Unger Telescopic Pole</a></div>
+</div>
+
+<div class="footer">
+Disclosure: Some links may be affiliate links. Always verify specs and compatibility before purchasing.
+</div>
+
+</div>
+
+<script>
+function filterProducts() {
+  let input = document.getElementById("search").value.toLowerCase();
+  let cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+    card.style.display = text.includes(input) ? "" : "none";
+  });
+}
+</script>
+
+</body>
+</html>
